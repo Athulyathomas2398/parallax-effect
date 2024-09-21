@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    background: #f2f2f2;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.685)
+}
+.h1{
+    font-size: 90px;
+    text-align: center;
+    
+}
+.h2{
+    font-size: 110px;
+    text-align: center;
+    
+}
+.parallax-1{
+    background: url('images/mysorepalace.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax-2{
+    background: url('images/Brindavan-Gardens-Mysore.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax-3{
+    background: url('images/chamundeshwari-temple.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax-4{
+    background: url('images/Mysore-zoo-giraffe.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax-inner{
+    padding: 10% 0;
+    height: 500px;
+}
+h2{
+    font-size: 32px;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+}
+p{
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0 50px 40px;
+}
+p:nth-of-type(2),
+p:nth-of-type(3){
+    margin: 40px 50px;
+}
+p:hover{
+    color: rgb(0, 26, 255);
+}
+h2:hover{
+    color: rgb(255, 8, 0);
+}
+/* @media (max-width:380px){
+    p:hover{
+        color: rgb(0, 26, 255);
+    }
+    h2:hover{
+        color: rgb(255, 8, 0);
+    }
+} */
